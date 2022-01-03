@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,800;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+nav {
+  background-color: darksalmon;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 4rem;
+  color: dimgray;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+footer {
+  background-color: darksalmon;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  margin-top: 50px;
+}
+
+/**/
+
+.reneDiv {
+  padding: 50px 100px;
+}
+
+.reneText {
+  font-size: 1.5rem;
+  width: 45%;
+  float: left;
+}
+
+.reneText b {
+  font-size: 2rem;
+}
+
+#reneImg {
+  float: right;
+  width: 50%;
+}
+
+.gallery {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.gallery img {
+  height: 400px;
+}
+
+/**/
+
+.pokemonUl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
